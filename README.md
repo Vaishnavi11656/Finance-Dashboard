@@ -37,7 +37,7 @@ Designed reusable stat cards for scalability.
 
 How to run locally:
 
-npm install
+npm install,
 npm run dev
 
 Future Improvements:
