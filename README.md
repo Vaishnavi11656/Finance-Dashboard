@@ -1,16 +1,50 @@
-# React + Vite
+Finance Dashboard – Zorvyn Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview:
+This project is a responsive finance dashboard built to visualize financial data, explore transactions, and provide basic spending insights. The focus was on clean UI design, modular component structure, and stable chart rendering.
 
-Currently, two official plugins are available:
+Tech Stack:
+React (Vite)
+TailwindCSS
+Recharts
+JavaScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features:
+• Dashboard overview with balance, income and expense summary
+• Time based financial trend charts
+• Category spending visualization
+• Transaction table with search and filtering
+• Role based UI simulation (Admin / Viewer)
+• Insights section showing spending patterns
+• Responsive design
+• Dark mode support
+• Chart stability improvements using ResizeObserver
 
-## React Compiler
+Project Structure:
+src/components → reusable UI components
+src/pages → main dashboard layout
+Charts separated for modularity
+Clean component based architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+State Management:
+Used React state and props for managing transactions, filters and role switching.
 
-## Expanding the ESLint configuration
+Key Design Decisions:
+Focused on readability and layout hierarchy.
+Separated layout and feature components.
+Implemented stable chart sizing to prevent rendering issues.
+Designed reusable stat cards for scalability.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+How to run locally:
+
+npm install
+npm run dev
+
+Future Improvements:
+API integration
+Authentication
+Advanced filtering
+Export functionality
+
+Author:
+Gajjala Vaishnavi
